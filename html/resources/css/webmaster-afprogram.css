@@ -1,0 +1,348 @@
+/*-----------------------------------
+
+	WEBMASTER AFFILIATE PROGRAM
+
+-------------------------------------*/
+.wap-headbox {
+	display: inline-block;
+	margin: 0 auto 20px;
+	padding: 30px 250px 45px 0;
+	position: relative;
+	width: 100%;
+}
+.wap-icon,
+.wap-icon-before:before,
+.wap-icon-after:after {
+	background-image: url("../img/wap-sprite.svg");
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.wap-headbox:before {
+	background-position: -283px -271px;
+	bottom: -2px;
+	content: ' ';
+	float: left;
+	height: 255px;
+	left: 0;
+	position: relative;
+	width: 293px;
+	z-index: 1;
+}
+.waf-page .wap-headbox h3 {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	width: 100%;
+}
+.wap-headbox h2 {
+	background-position: -469px -3px;
+	bottom: 45px;
+	font-size: 22px;
+	font-weight: normal;
+	height: 167px;
+	line-height: 130%;
+	margin: 0;
+	padding: 33px 0 0 15px;
+	position: absolute;
+	right: 20px;
+	width: 208px;
+}
+.wap-headbox h2 span {
+	color: #cc9501;
+}
+.wap-section .overflow-hidden {
+	overflow: hidden;
+}
+.overflow-hidden.top-text {
+	display: table;
+	padding: 83px 0 0 30px;
+}
+.wap-headbox h3 {
+	border: none;
+	color: #81a358;
+	float: right;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	width: 280px;
+}
+.wap-headbox .bottom-text {
+	background-color: #2a3b4d;
+	bottom: 0;
+	color: #fff;
+	font-weight: normal;
+	left: 0;
+	margin: 0;
+	padding: 12px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+@media screen and (max-width: 1180px) {
+	.wap-headbox {
+		min-height: 350px;
+		padding-right: 0;
+	}
+	.overflow-hidden.top-text {
+		padding-top: 0;
+	}
+}
+@media screen and (max-width: 1040px) {
+	.wap-headbox:before {
+		display: none;
+	}
+	.wap-headbox {
+		min-height: 215px;
+		padding-right: 245px;
+	}
+}
+@media screen and (max-width: 560px) {
+	.wap-headbox h2 {
+		background: none;
+		bottom: auto;
+		font-size: 22px;
+		font-weight: normal;
+		height: auto;
+		line-height: 130%;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		right: auto;
+		width: 100%;
+	}
+	.wap-headbox h2 br {
+		display: none;
+	}
+	.wap-headbox {
+		min-height: 0;
+		padding: 0;
+	}
+	.overflow-hidden.top-text {
+		padding-left: 0;
+	}
+	.wap-headbox .bottom-text {
+		position: relative;
+	}
+}
+.wap-join-block {
+	min-height: 260px;
+	padding-right: 220px;
+	position: relative;
+}
+.wap-join-block:before {
+	background-position: -285px 0;
+	bottom: 0;
+	content: ' ';
+	height: 268px;
+	position: absolute;
+	right: 40px;
+	top: -20px;
+	width: 164px;
+}
+.login-popup {
+	color: #4d7694;
+	cursor: pointer;
+	float: right;
+}
+.login-popup:hover {
+	text-decoration: underline;
+}
+.wap-box-header {
+	margin: 0 15px;
+}
+.wap-box-bottom {
+	background-color: #2a3b4d;
+	color: #fff;
+	display: inline-block;
+	padding: 30px 15px 15px;
+	width: 100%;
+}
+.bottom-line {
+	border-bottom: 1px solid #adadad;
+	padding-bottom: 15px;
+}
+.wap-section .pay_systems {
+	border-radius: 0;
+	box-shadow: none;
+	height: 55px;
+	padding: 0;
+	text-align: right;
+	width: auto;
+}
+.wap-section h3 {
+	margin: 10px 0 15px;
+}
+.wap-section .simple-list {
+	clear: both;
+	list-style: none;
+	margin: 20px 165px 20px 0;
+	padding-left: 0;
+}
+.simple-list li {
+	margin-bottom: 8px;
+	padding-left: 30px;
+	position: relative;
+}
+.simple-list li:after {
+	background-color: #344754;
+	border-radius: 50%;
+	content: ' ';
+	height: 8px;
+	left: 15px;
+	position: absolute;
+	top: 6px;
+	width: 8px;
+}
+.wap-box {
+	border: 2px solid rgba(77, 118, 148, .63);
+	margin: 0 0 15px;
+	padding: 0;
+	position: relative;
+}
+.wap-box .simple-list {
+	clear: both;
+	display: block;
+	margin: 15px auto;
+	max-width: 420px;
+	overflow: hidden;
+}
+.wap-box .simple-list li {
+	float: left;
+	width: 50%;
+}
+.pay_systems .paypal {
+	background-image: url("../img/paypal_logo.png");
+	border: 0 none;
+	display: inline-block;
+	height: 55px;
+	margin: 0;
+	padding: 0;
+	text-indent: -999em;
+	vertical-align: top;
+	width: 114px;
+}
+.center-button-box {
+	padding: 0;
+	text-align: center;
+	position: relative;
+	margin-top: -85px;
+}
+.order-but {
+	display: inline-block;
+	min-width: 170px;
+}
+.wap-text-box.display-table {
+	display: table;
+}
+.wap-text-box.display-table  p,
+.wap-text-box.display-table  ul {
+	display: table-cell;
+	line-height: 170%;
+}
+.wap-text-box p,
+.wap-text-box ul {
+	display: block;
+	line-height: 120%;
+}
+.wap-text-box p {
+	line-height: 170%;
+	padding-top: 0;
+	vertical-align: top;
+}
+.wap-text-box ul {
+	padding: 0 30px 15px 0;
+	width: 240px;
+}
+.wap-text-box li {
+	background-color: #f8da73;
+	border-radius: 2px;
+	color: #000;
+	display: inline-block;
+	font-size: 19px;
+	margin-bottom: 20px;
+	padding: 10px 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.wap-text-box li:after {
+	background-position: -603px -397px;
+	bottom: -26px;
+	content: ' ';
+	display: block;
+	height: 26px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	width: 19px;
+	z-index: 1;
+}
+.wap-text-box li.step-4 {
+	background-color: #9dc66a;
+	color: #fff;
+	font-size: 15px;
+	line-height: 110%;
+	padding: 14px 0 9px;
+}
+.wap-text-box li.step-4 .font-dosis {
+	font-size: 30px;
+}
+.wap-text-box li.step-4:after {
+	display: none;
+}
+.wap-section .button {
+	min-width: 160px;
+}
+.wap-icon-right {
+	margin-bottom: 25px;
+	padding: 0 250px 0 0;
+	position: relative;
+}
+.wap-icon-right:before {
+	background-position: -586px -192px;
+	bottom: 10px;
+	content: ' ';
+	height: 182px;
+	margin: auto;
+	position: absolute;
+	right: 50px;
+	width: 132px;
+}
+@media screen and (max-width: 1160px) {
+	.wap-section h3 {
+		width: 100%;
+	}
+	.justul li {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 560px) {
+	.wap-text-box.display-table ul,
+	.wap-icon-right:before {
+		display: none;
+	}
+	.wap-icon-right {
+		padding-right: 0;
+	}
+	.wap-section .simple-list {
+		margin: 15px 15px 15px 0;
+	}
+	.wap-section .pay_systems {
+		float: none;
+	}
+}
+@media screen and (max-width: 480px) {
+	.wap-join-block:before {
+		display: none;
+	}
+	.wap-join-block {
+		padding-right: 0;
+	}
+}
+/*-----------------------------------
+
+	WEBMASTER AFFILIATE PROGRAM
+
+-------------------------------------*/

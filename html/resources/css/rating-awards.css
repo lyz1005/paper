@@ -1,0 +1,187 @@
+/* Ratings and Awards */
+.rating-awards-page .section-content h1 {
+	margin-bottom: 0;
+}
+.withback {
+	background: #fbfbfb;
+	border: 1px solid #ccc;
+	border-top: none;
+	overflow: hidden;
+	padding-bottom: 0;
+	position: relative;
+}
+#awards h1 {
+	margin: 0;
+	padding: 5px 0 10px;
+}
+.ra-textbox {
+	position: relative;
+}
+.ra-toptext {
+	padding: 20px 20px 20px 200px;
+}
+.ra-toptext:after,
+.ra-rating-text:after,
+.ra-awards-text:before,
+div.awardbox:before {
+	background-image: url("../../w3t_img/images/rating-awards.gif");
+	background-repeat: no-repeat;
+}
+.ra-toptext:after {
+	background-position: -10px -5px;
+	content: ' ';
+	height: 172px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 172px;
+}
+.ra-rating-text {
+	padding: 0 170px 20px 20px;
+}
+.ra-rating-text:after {
+	background-position: 0 -256px;
+	content: ' ';
+	height: 253px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 114px;;
+}
+.ra-awards-text {
+	padding: 0 20px 20px 170px;
+	position: relative;
+}
+.ra-awards-text:before {
+	background-position: -5px -675px;
+	content: '';
+	height: 260px;
+	left: 0;
+	position: absolute;
+	top: -10px;
+	width: 138px;
+}
+.awardsdesc p.firstp {
+	padding: 5px 10px 10px 130px;
+}
+div.awardbox {
+	background-color: #f6fbff;
+	background-image: none;
+	padding: 0 10px 0 0;
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+	display: table;
+    vertical-align: middle;
+    border-color: rgb(188, 213, 227);
+}
+div.awardbox p {
+	display: table-cell;
+	padding-left: 20px;
+    vertical-align: middle;
+}
+div.awardbox:before {
+    background-position: -15px -1056px;
+    position: relative;
+    display: table-cell;
+    width: 115px;
+    height: 105px;
+    content: " ";
+}
+div.awardbox.nineplus:before {
+	background-position: -15px -1309px;
+}
+div.awardbox.punctuality_proofed:before {
+	background-position: -15px -1509px;
+}
+div.awardbox.reliability_proofed:before {
+	background-position: -15px -1709px;
+}
+div.awardbox.writer_of_month:before {
+	background-position: -15px -1909px;
+}
+div.awardbox.newcomer_of_month:before {
+	background-position: -15px -2109px;
+}
+div.awardbox.customer_loyalty:before {
+    background-position: -15px -2309px;
+}
+
+.awardbox + .awardbox {
+	margin-top: 5px;
+}
+.awardbox + .awardbox:last-child {
+    margin: 5px 0 20px;
+}
+.awardbox,
+.warningbox {
+	background-color: #fcfff6;
+	background-position: 338px -178px;
+	border: 1px solid #bbddb2;
+	box-shadow: 0 0 0 1px #fff inset;
+	float: right;
+	font-size: 14px;
+	min-height: 35px;
+	min-width: 310px;
+	padding: 12px 70px 5px 20px;
+}
+.awardbox {
+	min-height: 105px;
+}
+.writer_awards .awardbox,
+.writer_awards .warningbox {
+	width: 335px;
+}
+.warningbox .date,
+.awardbox .date {
+	margin: 2px 0 10px;
+}
+.awardbox.triple10 {
+	background-position: 350px -73px;
+}
+.awardbox.nineplus {
+	background-position: 350px -298px;
+}
+.awardbox.punctuality_proofed {
+	background-position: 350px -395px;
+}
+.awardbox.reliability_proofed {
+	background-position: 350px -495px;
+}
+
+.awardbox.writer_of_month {
+	background-position: 350px -595px;
+}
+.awardbox.newcomer_of_month {
+	background-position: 350px -695px;
+}
+.writer_warning h6,
+.writer_awards h6 {
+	background-position: 11px 2px;
+	font-size: 14px;
+	height: 70px;
+	left: 0;
+	padding-left: 33px;
+	padding-top: 10px;
+	position: absolute;
+	text-align: right;
+	width: 100px;
+}
+.writer_warning h6 {
+	background: url("../../w3t_img/images/icon_services.png") -1952px 5px no-repeat;
+}
+.warningbox {
+	background: #feefef;
+	border: 1px solid #ddb2b2;
+	min-height: 0;
+	padding: 12px 20px 15px 20px;
+	width: 370px;
+}
+.writer_with_warning:after {
+	background-image: none;
+}
+.warningbox p {
+	margin: 0;
+	padding: 0;
+}
+/* end Ratings and Awards */

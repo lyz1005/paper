@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /bricks/es_var.html
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-login.php
+Disallow: /blog/wp-register.php
+Disallow: /blog/wp-content/cache/
+Disallow: /blog/xmlrpc.php
+Disallow: /blog/*/feed/
+Sitemap: https://85xiezuo.cn/sitemap.xml
+Sitemap: https://85xiezuo.cn/blog/sitemap_index.xml
+Sitemap: https://essaywill.cn/blog/sitemap_baidu.xml
